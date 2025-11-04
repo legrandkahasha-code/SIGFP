@@ -2,6 +2,9 @@
 # https://docs.netlify.com/configure-builds/file-based-configuration/
 
 [build]
+  # Base directory (racine du projet)
+  base = ""
+  
   # Commande de build
   command = "npm run build"
   
